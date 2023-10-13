@@ -1,7 +1,7 @@
 function threeSum(arr, target) {
-  if (arr.length < 3) {
-    return null; // Not enough elements to form a triplet.
-  }
+  // if (arr.length < 3) {
+  //   return null; // Not enough elements to form a triplet.
+  // }
 
   let closestSum = arr[0] + arr[1] + arr[2];
 
